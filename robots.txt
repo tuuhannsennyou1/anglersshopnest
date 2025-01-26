@@ -1,0 +1,4 @@
+User-Agent: *
+Sitemap:http://jigging-nest.sakura.ne.jp/sitemap.xml
+Disallow: /private/
+
