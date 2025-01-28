@@ -4,6 +4,11 @@ body {
   color: #111;
 }
 
+/* debug bodyline */
+/* body * {
+  outline: red 1px solid;
+} */
+
 .theme-font {
   font-family: "Zen Maru Gothic", serif;
   font-weight: 700;
@@ -448,9 +453,6 @@ body {
 }
 
 
-#areamap .container-fluid {
-  padding: 0;
-}
 #areamap .map-responsive{
   overflow:hidden;
   padding-bottom:50%;
