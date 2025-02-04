@@ -48,7 +48,7 @@ $(document).ready(function() {
         timeout: 30000
     }).fail(function (jqxhr, textstatus) {
     
-      console.log("[" + textstatus + "][" + url + "][" + JSON.stringify(jqxhr) + "]");
+      console.log("[" + textstatus + "][" + JSON.stringify(jqxhr) + "]");
     
     }).always(function (data) {
       
