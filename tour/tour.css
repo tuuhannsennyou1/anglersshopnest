@@ -1,0 +1,67 @@
+body {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #222222;
+  }
+
+.shippori-mincho-regular {
+font-family: "Shippori Mincho", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.shippori-mincho-bold {
+font-family: "Shippori Mincho", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.shippori-mincho-extrabold {
+font-family: "Shippori Mincho", serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.navbar.transparent {
+    background-color:#222222;
+    color: white;
+  }
+
+  #areaspace {
+    min-height: 100px;
+    background-color:#222222;
+  }
+
+.footer {
+    border-top: 2px solid #adb5bd;
+    color: #adb5bd;
+    background-color: #222222;
+}
+
+.report-btn {
+    margin-top: 1rem;
+    border: 2px solid #adb5bd;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+.report-btn > img {
+    display: inline-block;
+    height: 2rem;
+}
+
+/* 
+@media (max-width: 576px) {
+    .card-columns {
+        column-count: 2;
+        column-gap: 1rem; 
+    }
+}  */
+
+.overlay {
+  position: absolute;
+  right: 10px; /* 必要に応じて調整 */
+  bottom: 10px; /* 必要に応じて調整 */
+  width: 30%; /* 必要に応じて調整 */
+  height: auto;
+}

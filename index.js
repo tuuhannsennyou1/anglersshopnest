@@ -68,7 +68,7 @@ $(document).ready(function() {
       timeout: 30000
     }).fail(function (jqxhr, textstatus) {
     
-      console.log("[" + textstatus + "][" + url + "][" + JSON.stringify(jqxhr) + "]");
+      console.log("[" + textstatus + "][get_message.php][" + JSON.stringify(jqxhr) + "]");
     
     }).done(function (data) {
 
