@@ -1,0 +1,13 @@
+ネストのツアーのページ作成方法
+
+①画像を圧縮
+https://www.iloveimg.com/ja
+
+②画像をリネーム
+LiName20190131
+C:\Users\imai\Desktop\mytool\LiName20190131
+
+
+③ディレクトリに格納
+C:\gitwork\anglersshopnest\tour
+
