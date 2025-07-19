@@ -1,0 +1,101 @@
+body {
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #38598C;
+}
+.navbar.transparent {
+   background-color:#38598C;
+}
+
+#areaspace {
+  background-color:#38598C;
+}
+.footer {
+  background-color:#38598C;
+}
+
+
+.kaisei-decol-regular {
+  font-family: "Kaisei Decol", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kaisei-decol-bold {
+  font-family: "Kaisei Decol", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+#titlearea {
+  background-image: url(back1.jpg);   
+}
+
+#allhit {
+  background-image: url(back2.jpg);   
+}
+#thankyou {
+  background-image: url(back3.jpg);   
+}
+
+.background-cover {
+  background-size: 100% auto; 
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: auto; /* ここが曖昧なので親要素に依存しないようにする */
+  aspect-ratio: 16 / 9;
+}
+
+.decorated-box {
+  position: relative;
+  padding: 10rem 3rem; /* 上部の余白を画像分あける */
+  background: linear-gradient(to bottom right, #cce6ff, #66a3ff); /* 任意の背景 */
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* 左上に画像 */
+.decorated-box::before,
+.decorated-box::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  width: 8rem;
+  height: 8rem;
+  background-image: url('buku.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* 左上用 */
+.decorated-box::before {
+  left: 0;
+}
+
+/* 右上用 */
+.decorated-box::after {
+  right: 0;
+}
+
+.list-underline-transparent {
+  background-color: transparent; /* 背景透明 */
+  list-style: none; /* デフォルトの箇条書きスタイルを無効化 */
+  padding: 0;
+  margin: 0;
+}
+
+.list-underline-transparent li {
+  border-bottom: 1px solid #ffffff; /* 下線を追加 */
+  padding: 0.5rem 0;
+}
+
+.report-btn {
+    margin-top: 1rem;
+    border: 0px;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
