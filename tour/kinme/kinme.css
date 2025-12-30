@@ -4,6 +4,12 @@ body {
   color: #ffffff;
   background-color: #38598C;
 }
+
+/* debug bodyline */
+/* body * {
+  outline: red 1px solid;
+} */
+
 .navbar.transparent {
    background-color:#38598C;
 }

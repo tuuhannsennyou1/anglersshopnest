@@ -11,3 +11,21 @@ C:\Users\imai\Desktop\mytool\LiName20190131
 ③ディレクトリに格納
 C:\gitwork\anglersshopnest\tour
 
+
+
+
+動画を背景にするのに軽くする
+
+①ffmpegインストール
+powershell
+winget install --id=Gyan.FFmpeg -e
+
+powershell再起動
+ffmpeg -version
+
+②copilotなどで軽量化コマンド発行
+
+ffmpeg -i "C:\share\aaa.mp4" `
+-vf "scale=854:-1,fps=24" `
+-vcodec libx264 -crf 30 -preset veryslow -an `
+"C:\share\output_bg_crf30.mp4"
